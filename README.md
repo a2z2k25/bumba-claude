@@ -1,4 +1,4 @@
-# 🏁 BUMBA 1.0 Framework
+# 🏁 BUMBA-CLAUDE 1.0 Framework
 ### Multi-Agent Claude Code Framework
 
 [![NPM Version](https://img.shields.io/npm/v/bumba-claude.svg)](https://www.npmjs.com/package/bumba-claude)
