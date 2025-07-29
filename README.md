@@ -1,8 +1,5 @@
 # 🏁 BUMBA 1.0 Framework
-### Production-Ready AI Development Platform with Hierarchical Multi-Agent Intelligence
-
-> **Revolutionary consciousness-driven framework featuring health monitoring, performance optimization, simplified architecture, and comprehensive system integration**  
-> *Hierarchical Multi-Agent System • Health Monitoring • Performance Metrics • Lite Mode • Resource Management • Executive Intelligence*
+### Multi-Agent Claude Code Framework
 
 [![NPM Version](https://img.shields.io/npm/v/bumba-claude.svg)](https://www.npmjs.com/package/bumba-claude)
 [![License](https://img.shields.io/npm/l/bumba-claude.svg)](LICENSE)
