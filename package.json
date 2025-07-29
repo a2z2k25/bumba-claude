@@ -1,0 +1,89 @@
+{
+  "name": "bumba-claude",
+  "version": "1.1.0",
+  "description": "BUMBA 1.1: Enterprise-grade AI framework with enhanced security, professional logging, and optimized performance. Now 40% smaller with zero redundancy.",
+  "main": "src/index.js",
+  "bin": {
+    "bumba-claude": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "setup": "node src/index.js",
+    "link-local": "npm link && echo 'Now run: npx bumba-claude'",
+    "unlink-local": "npm unlink bumba-claude",
+    "publish-check": "npm pack --dry-run",
+    "prepublishOnly": "npm run publish-check"
+  },
+  "keywords": [
+    "claude",
+    "ai",
+    "framework",
+    "product-development",
+    "design-to-code",
+    "figma",
+    "prd",
+    "requirements",
+    "roadmap",
+    "development",
+    "design",
+    "quality",
+    "security",
+    "automation",
+    "bumba",
+    "mcp",
+    "orchestration",
+    "enterprise",
+    "professional"
+  ],
+  "author": "azellinger",
+  "license": "MIT",
+  "preferGlobal": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a2z2k25/bumba-claude.git"
+  },
+  "homepage": "https://github.com/a2z2k25/bumba-claude#readme",
+  "bugs": {
+    "url": "https://github.com/a2z2k25/bumba-claude/issues"
+  },
+  "files": [
+    "src/",
+    "assets/",
+    "docs/",
+    "README.md",
+    "REFERENCE.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "bumba.config.js",
+    "!**/*.bak",
+    "!**/node_modules",
+    "!**/.git",
+    "!**/*.log",
+    "!**/test-*.js"
+  ],
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "ora": "^5.4.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "directories": {
+    "lib": "./src",
+    "doc": "./docs"
+  },
+  "config": {
+    "framework_version": "1.0.0",
+    "target_directory": "~/.claude"
+  }
+}
